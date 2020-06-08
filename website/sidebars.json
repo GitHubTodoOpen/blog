@@ -1,0 +1,11 @@
+{
+  "docs": {
+    "Content": ["docs"],
+    "First Category": ["doc2"],
+    "Second Category": ["doc3"],
+    "Cuarta Category": ["doc6"]
+  },
+  "docs-other": {
+    "API Docs": ["api","doc4", "doc5"]
+  }
+}
