@@ -23,15 +23,15 @@ const users = [
 const siteConfig = {
   title: 'Project Site', // Title for your website.
   tagline: 'A website for documentation',
-  url: 'https://todoopen.com', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  url: 'https://githubtodoopen.github.io', // Your website URL
+  baseUrl: '/blog/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'proyect-name',
-  organizationName: 'TodoOpen',
+  projectName: 'blog',
+  organizationName: 'GitHubTodoOpen',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -105,6 +105,7 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
+  // GIT_USER=GitHubTodoOpen CURRENT_BRANCH=master USE_SSH=true npm run publish-gh-pages
 };
 
 module.exports = siteConfig;
